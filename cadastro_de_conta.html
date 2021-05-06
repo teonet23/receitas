@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cadastro_de_conta</title>
+    <link rel="stylesheet" href="style.css/style.css">
+</head>
+<body>
+    <div align="center"><h3>Cadastro de Conta</h3></div>
+    <div align="center">
+        <a href="index.html">Voltar</a> &nbsp;&nbsp;
+        <br>
+    </div>
+    <div align="center">
+        <form method="POST" action="php/cadastro_de_conta.php">
+           
+            <div align="center">
+                Nome:
+                <br>
+                <input type="text" id="txtNome" name="txtNome"/>
+            </div>
+            <div align="center">
+                Descrição:
+                <br>
+                <input type="text" id="txtDescricao" name="txtDescricao"/>
+            </div>
+            <div align="center">
+                saldo:
+                <br>
+                <input type="text" id="txtSaldo" name="txtSaldo"/>
+            </div>
+            <br>
+            <div>
+                <input type="reset" value="Limpar">
+                &nbsp;
+                <input type="submit" value="Enviar">
+            </div>
+        </form>
+    </div>    
+</body>
+</html>
